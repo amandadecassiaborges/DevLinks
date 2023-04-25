@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+:root {
+	--color-text-color-dark-mode: #ffffff;
+	--color-text-color-light-mode: #000000;
+	--color-stroke-color-dark-mode: 255, 255, 255;
+	--color-stroke-color-light-mode: 0, 0, 0;
+	--color-surface-color-dark-mode: 255, 255, 255;
+	--color-surface-color-light-mode: 0, 0, 0;
+	--color-surface-color-dark-mode-hover: 255, 255, 255;
+	--color-surface-color-light-mode-hover: 0, 0, 0;
+	--color-highlight-color-dark-mode: 255, 255, 255;
+	--color-highlight-color-light-mode: 0, 0, 0;
+	--color-toggle-handle-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assents/Mobile.jpg);
+  background-repeat: no-repeat; /*não repetir a imagem em varias*/
+  background-position: top center; /*imagem comeca do topo*/
+  background-size: cover; /*cobrir toda area visivel*/
+}
+
+body *{
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+.conteiner {
+  width: 360px;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 112px;
+}
+.profile p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
